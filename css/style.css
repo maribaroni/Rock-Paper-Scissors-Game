@@ -1,0 +1,158 @@
+#wrapper{
+	margin: auto;
+	padding: auto;
+	font-family: Verdana;
+	padding: 30px;
+}
+
+.content{
+	width: 85%;
+	margin: auto;
+	padding: 10px;
+	padding-bottom: 40px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+    box-shadow: 0 0 1em gray;
+    text-align: center;
+    color: darkgreen;
+	text-shadow: 0 0 1px black;;
+    overflow-wrap: break-word;
+	word-wrap: break-word;
+    hyphens: auto;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/giphy.gif");
+/*	background-size: 500px;*/
+	background-color: white;
+	background-repeat: round;
+}
+
+.header{
+	text-align: center;
+	padding: 3px;
+    color: darkgreen;
+	text-shadow: 0 0 6px lightgreen, 0 0 1px black;;
+    overflow-wrap: break-word;
+	word-wrap: break-word;
+    hyphens: auto;
+}
+
+img{
+	max-width: 70%;
+	height: auto;
+}
+
+.table{
+	display: flex;
+	justify-content: center;
+}
+
+table, th, td {
+	border: 1.2px solid black;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+table{
+	table-layout: fixed;
+}
+
+td{
+	width: 100px;
+	max-width: 250px;
+	height: auto;
+	word-wrap:break-word;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+}
+
+button{
+    height:100px;
+    width:250px;
+    padding: 2px;
+    background-color: darkgreen;
+	font-size: 2em;
+	color: white;
+	border-radius: 6px;
+	box-shadow: inset 0px 1px 0px 0px darkgreen;
+}
+
+@media(min-width: 320px){
+	h1 {
+		font-size: 90px;
+	}
+	h2 {
+		font-size: 80px;
+	}
+	h3 {
+		font-size: 60px;
+	}
+	h4 {
+		font-size: 45px;
+	}
+	h5 {
+		font-size: 34px;
+	}
+	h6 {
+		font-size: 26px;
+	}
+	p {
+		font-size: 20px;
+	}
+}
+	
+@media(min-width:480px){
+	h1{
+		font-size: 72px;
+	}
+	h2{
+		font-size: 60px;
+	}
+	h3{
+		font-size: 48px;
+	}
+	h4{
+		font-size: 36px;
+	}
+	h5{
+		font-size: 24px;
+	}
+	h6{
+		font-size: 21px;
+	}
+	p{
+		font-size: 18px;
+	}
+}
+
+@media(min-width:720px){
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 48px;
+	}
+	h3{
+		font-size: 36px;
+	}
+	h4{
+		font-size: 24px;
+	}
+	h5{
+		font-size: 21px;
+	}
+	h6{
+		font-size: 18px;
+	}
+	p{
+		font-size: 16px;
+	}
+}
